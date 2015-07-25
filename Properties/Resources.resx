@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmailDomains" xml:space="preserve">
+    <value>com,net,co.uk,org,org.uk</value>
+  </data>
+  <data name="JobTitles" xml:space="preserve">
+    <value>Trainer,HRAssistant,MarketingManager,AccountManager,PayrollClerk,ProjectManager,BusinessAnalyst,ProductManager,SoftwareDeveloper,WebDeveloper,SystemsAdministrator,SupportEngineer,Accountant,SeniorAccountant,Controller,Technician,Trainee,Receptionist,AssistantManager,OfficeManager</value>
+  </data>
+  <data name="LastNames" xml:space="preserve">
+    <value>Freeman,Jefferson,Washington,Wheeler,Martz,Hudson,Smith,Johnson,Williams,Black,Bradley,Jones,Brown,Davis,Cooke,Cunningham,Wilson,Moore,Taylor,Anderson,Thomas,Jackson,White,Harris,Thompson,Garcia,Gordon,Martinez,Robinson,Clark,Welsh,Rodriguez,Meyers,Lewis,Lee,Walker,Martin,Hall,Allen,Murphy,Murray,Young,Hernandez,King,Wright,Perry,Hill,Scott,Green,Adams,Baker,Cartwright,Mitchell,Roberts,Turner,Phillips,Campbell,Parker,Evans,Edwards,Collins,Morris,Rodgers,Reed,Cook,Morgan,Bell,Bailey,Cooper,Richardson,Cox,Ward,Peterson,Gray,James,Watson,Ramirez,Cook,Brooks,Kelly,Sanders,Bennett,Wood,Barnes,Ross,Henderson,Coleman,Jenkins,Powell,Long,Patterson,Flores,Butler,Bryant,Alexander,Russell,Griffin,Hayes,Hamilton,Graham,Sullivan,Woods,Cole,West,Jordan,Owens,Reynolds,Fisher,Ellis,Harrison,Gibson,Marshall,Wells,Simpson,Stevens,Reynolds,Tucker,Porter,Hunter,Hicks,Crawford,Henry,Boyd,Mason,Kennedy,Warren,Dixon,Burns,Gordon,Shaw,Rice,Robertson,Hunt,Daniels,Palmer,Mills,Nichols,Grant,Knight,Ferguson,Rose,Hawkins,Dunn,Perkins,Hudson,Spencer,Gardner,Payne,Pierce,Berry,Matthews,Wagner,Willis,Ray,Watkins,Olson,Carroll,Duncan,Snyder,Hart,Cunningham,Andrews,Harper,Fox,Riley,Armstrong,Carpenter,Weaver,Greene,Lawrence,Elliot,Lane,Nelson,Stewart,Howard,Price,Hughes,Wallace,McDonald,Webb,Holmes,Stone,Arnold,Smith,Jones,Williams,Brown,Taylor,Davies,Wilson,Evans,Thomas,Johnson,Roberts,Walker,Wright,Robinson,Thompson,White,Hughes,Edwards,Green,Hall,Wood,Harris,Martin,Jackson,Clarke,Turner,Hill</value>
+  </data>
+  <data name="NamesFemale" xml:space="preserve">
+    <value>Emily,Molly,Sophie,Jessica,Amy,Abigail,Abby,Lauren,Holly,Kate,Lucy,Elizabeth,Leah,Emma,Helen,Mary,Lisa,Elizabeth,Jennifer,Susan,Karen,Helen,Sandra,Donna,Carol,Sharon,Michelle,Laura,Sarah,Kim,Jessica,Cynthia,Angela,Melissa,Amy,Anne,Rebecca,Kate,Amanda,Stephanie,Christine,Janet,Catharine,Diane,Alice,Julie,Heather,Jill,Joan,Judy,Ashley,Kelly,Nicole,Denise,Jane,Laurie,Rachel,Andrea,Marilyn,Bonnie,Tina,Emily,Dawn,Tracy,Tiffany,Wendy,Shannon,Carrie,April,Jamie,Megan,Erin,Sally,Erica,Stacy,Brittany</value>
+  </data>
+  <data name="NamesMale" xml:space="preserve">
+    <value>Shane,Rob,Brad,Cameron,Chris,Neal,Jordan,Charlie,Jeff,Caleb,Eric,Samuel,Cory,Neil,Shaun,Nat,Calvin,Bob,James,Joe,Toby,Andy,Gary,Ruben,Matt,Geoff,Sidney,William,Tariq,Christian,Donny,Tim,Ben,Ross,Stephen,Duane,Flynn,Jake,Greg,David,Arthur,Mickey,Daniel,Brian,Mike,Chase,Jeremy,Sam,Nick,Alex,Tom,Landon,Jack,Derek,Jack,Oliver,Harry,Thomas,William,James,Charles,Daniel,Richard,Lewis,George,Adam,Ben,Owen,Paul</value>
+  </data>
+  <data name="NickNames" xml:space="preserve">
+    <value>Odin,Papa Bear,Yeti,Moose,Kong,Nero,Buster,Mack,Tank,Kingpin,Boom Boom,Richter,Dozer,Sledge,Brick,Crater,Flash,Nova,Smokey,Thunder,Arcade,Casino,Disco,Crash,Doomsday,Nuke,Road Block,Collateral,Tectonic,Strobe,Diesel,Hulk,Prototype,Lights Out,Rascal,Cash,Duke,Viking,Nitro,Mad Man,Bull,Cowboy,Spike,Tombstone,Gonzo,DJ,Zilch,Hazard,Bonzai,Geronimo,Septic,Chops,Coney,Devil Dog,Trips,Spitfire,Loco,Blitz,Dice,Cobra,Wolverine,Socks,Caper,Gunner,Shotsy,Boomer,D.O.A.,Android,Desperado,Psycho,Twitch,Pitbull,Mad Dog,Rhino,All Day,Mustang,Wildchild,Werewolf,Sheriff,Double Down,Wardog,Vandal,Smash,Hardcore,Zeus,Zed,Slim,Walker,Ranger,Pharaoh,Loki,Godfather,Warlock,Specter,Shadow,Garrote,Enigma,Claymore,Drifter,Ice,Nix,Longbow,Demon,Hex,Solo,Cyclops,Zulu,Vampire,Zero,Echo,Alpha,Omega,Deadbolt,Emo,Nightmare,Ghost,Snake Eyes,Spider,Xeno,Lockdown,Stalker,Long Shot,Low Rider,Checkmate,Magic Man,Santa,Deacon,Bishop,Hitch,Freud,Ace,Romeo,Pops,Atlas,Mr. Clean,Padre,Doc,Angel,Shield,Strings,Combo,Axle,Cargo,Saturn,Pox,Stacks,Ouija,Scarecrow,Bonus,Whiskey,Scotch,Voodoo,Missionary,Congo,Skinner,Vita,Fast Lane,Smokes,Rogue,Sentinel,Prophet,Sunny,Cairo,Mama Bear,Big Momma,Boom Boom,Richter,Dozer,Sledge,Brick,Crater,Flash,Nova,Smokey,Thunder,Arcade,Casino,Disco,Crash,Doomsday,Nuke,Road Block,Collateral,Tectonic,Strobe,Diesel,Hulk,Prototype,Lights Out,Wednesday,Freestyle,All In,Tombstone,Gonzo,DJ,Zilch,Hazard,Bonzai,Geronimo,Septic,Chops,Coney,Devil Dog,Trips,Spitfire,Loco,Blitz,Dice,Cobra,Wolverine,Socks,Caper,Gunner,Shotsy,Boomer,D.O.A.,Android,Desperado,Psycho,Twitch,Pitbull,Mad Dog,Rhino,All Day,Mustang,Wildchild,Werewolf,Sheriff,Double Down,Wardog,Vandal,Smash,Hardcore,Athena,Raven,Baroness,Lady Grey,Black Widow,Witchy,Specter,Shadow,Garrote,Enigma,Claymore,Drifter,Ice,Nix,Longbow,Demon,Hex,Solo,Cyclops,Zulu,Vampire,Zero,Echo,Alpha,Omega,Deadbolt,Emo,Nightmare,Ghost,Snake Eyes,Spider,Xeno,Lockdown,Stalker,Long Shot,Low Rider,Checkmate,Cookie,Gypsy,Vixen,Pixie,Kitty,Doc,Angel,Shield,Strings,Combo,Axle,Cargo,Saturn,Pox,Stacks,Ouija,Scarecrow,Bonus,Whiskey,Scotch,Voodoo,Missionary,Congo,Skinner,Vita,Fast Lane,Smokes,Rogue,Sentinel,Prophet</value>
+  </data>
+  <data name="OrganisationCompanySuffixes" xml:space="preserve">
+    <value>Ltd,PLC,Corp.,LLP,Limited,Inc.,plc,Co.,NPO</value>
+  </data>
+  <data name="OrganisationNameDescriptions" xml:space="preserve">
+    <value>Manufacturers,Solutions,Services,Entertainment,Media,Group,Productions,Technologies,Systems,Airways,Electronics,Appliances,Instruments,Communications,Studios,Associates,Communications,Foundation,Games,Publishing,Institute,International,Works,Laboratories,Digital,Energy</value>
+  </data>
+  <data name="Organisations" xml:space="preserve">
+    <value>Microsoft,Google,Apple,Dell,Intel,Samsung,LG,Red River Software,University of Sussex,Cadbury,Pepsi,BBC,Facebook,CityLink,Spotify,Valve,Electronic Arts,Costa</value>
+  </data>
+  <data name="StreetNames" xml:space="preserve">
+    <value>Apple,Carpenters,Cherry,Bishops,Summerfield,Charlwood,Albany,Worthing,Pleasant,Orchard,Butcher,Lexington,Grovesnor,Church,London,Oxford,St. Johns,High,Station,Main,Park,Victoria,Green,Manor,Queens,New,Grange,Kings,Windsor,Highfield,York,Mill,Geirge,Springfield,Albert,Alexander,Stanley,Chester,Richmond</value>
+  </data>
+  <data name="StreetTypes" xml:space="preserve">
+    <value>Avenue,Crescent,Mews,Road,Street,Cross,Meadow,Towers,Lane,Way</value>
+  </data>
+  <data name="TitlesFemale" xml:space="preserve">
+    <value>Mrs,Miss,Ms</value>
+  </data>
+  <data name="TitlesMale" xml:space="preserve">
+    <value>Mr</value>
+  </data>
+</root>
